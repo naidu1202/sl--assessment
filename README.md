@@ -77,7 +77,7 @@ For this use case, we are choosing the snowflake as warehouse. for the data inge
 
 The attached sample code below is the AWS glue job that runs on pyspark has the code to read the data from AWS S3 of a CSV format and write to parquet in different AWS S3 folder. It also contains how to write to PostgreSQL from AWS S3.
 
-Please refer the AWS glue job in the code section 
+**Please refer the AWS glue job in the code section **
 
 Snowflake can integrate to the AWS S3 by creating the stages. Once the integration is done, we can use either stream/tasks or copy command to have the data from S3 to snowflake. we will be loading the  data to snowflake with variant format which is used for both semi/structured format.
 
